@@ -17,7 +17,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:layout_weight="7"
-            android:background="@drawable/shape"
+            android:background="@null"
             android:drawableLeft="@drawable/s_search_btn"
             android:paddingLeft="10dp"
             android:paddingRight="140dp"
