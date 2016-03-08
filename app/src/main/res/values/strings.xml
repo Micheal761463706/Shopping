@@ -6,4 +6,8 @@
     <string name="fragment_bandsale_clothing">服装</string>
     <string name="fragment_bandsale_shoes">鞋包</string>
     <string name="fragment_bandsale_childclothing">童装</string>
+    <string name="fragment_bandsale_household">居家</string>
+    <string name="fragment_bandsale_account">个户</string>
+    <string name="fragment_bandsale_cate">美食</string>
+    <string name="fragment_bandsale_digital">数码</string>
 </resources>

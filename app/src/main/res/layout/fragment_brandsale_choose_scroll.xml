@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HorizontalScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:id="@+id/ll_brandsale_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <!--今日特卖-->
+        <TextView
+            android:id="@+id/tv_fragmet_brandsale_special"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:paddingLeft="20dp"
+            android:paddingTop="20dp"
+            android:text="@string/fragment_bandsale_special" />
+        <!--服装-->
+        <TextView
+            android:id="@+id/tv_fragmet_brandsale_clothing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="@string/fragment_bandsale_clothing" />
+        <!--鞋包-->
+        <TextView
+            android:id="@+id/tv_fragmet_brandsale_household"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            android:text="@string/fragment_bandsale_household" />
+
+        <TextView
+            android:id="@+id/tv_fragmet_brandsale_shoes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="@string/fragment_bandsale_shoes" />
+        <!--童装-->
+        <TextView
+            android:id="@+id/tv_fragmet_brandsale_childclothing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="@string/fragment_bandsale_childclothing" />
+        <!--居家-->
+        <!-- 个户-->
+        <TextView
+            android:id="@+id/tv_fragmet_brandsale_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="@string/fragment_bandsale_account" />
+        <!--美食-->
+        <TextView
+            android:id="@+id/tv_fragmet_brandsale_cate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="@string/fragment_bandsale_cate" />
+        <!--数码-->
+        <TextView
+            android:id="@+id/tv_fragmet_brandsale_digital"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:padding="20dp"
+            android:text="@string/fragment_bandsale_digital" />
+
+    </LinearLayout>
+</HorizontalScrollView>

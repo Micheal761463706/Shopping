@@ -4,16 +4,24 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-   <include layout="@layout/activity_fragment_brandsale_sousuo"
-       android:layout_width="match_parent"
-       android:layout_height="0dp"
-       android:layout_weight="1"/>
-
-    <include layout="@layout/activity_fragment_brandsale_choose"
+    <FrameLayout
+        android:id="@+id/fl_fragment_brandsale"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+    <!--今日特卖搜索框布局-->
+    <include
+        layout="@layout/activity_fragment_brandsale_sousuo"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+    <!--今日特卖选择按钮布局-->
+    <include
+        layout="@layout/activity_fragment_brandsale_choose"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:orientation="horizontal"/>
+        android:orientation="horizontal" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,5 +29,12 @@
         android:layout_weight="7"
         android:orientation="horizontal">
 
+        <ListView
+            android:id="@+id/lv_fragment_brandsale"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
     </LinearLayout>
+
+
 </LinearLayout>

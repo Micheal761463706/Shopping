@@ -4,32 +4,25 @@
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
-    <TextView
-        android:padding="20dp"
-        android:id="@+id/tv_fragmet_brandsale_special"
+    <FrameLayout
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="2"
-        android:text="@string/fragment_bandsale_special" />
+        android:layout_height="match_parent"
+        android:layout_weight="9">
+        <!-- HorizontalScrollView-->
+        <include layout="@layout/fragment_brandsale_choose_scroll"/>
+    </FrameLayout>
 
-    <TextView
-        android:id="@+id/tv_fragmet_brandsale_clothing"
+    <FrameLayout
         android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="2"
-        android:text="@string/fragment_bandsale_clothing" />
-
-    <TextView
-        android:id="@+id/tv_fragmet_brandsale_shoes"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="2"
-        android:text="@string/fragment_bandsale_shoes" />
-
-    <TextView
-        android:id="@+id/tv_fragmet_brandsale_childclothing"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_weight="2"
-        android:text="@string/fragment_bandsale_childclothing" />
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+        <ImageView
+            android:id="@+id/iv_fragmet_brandsale_more"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right|center_vertical"
+            android:background="#d1c8c8"
+            android:padding="15dp"
+            android:src="@drawable/x_comment_down" />
+    </FrameLayout>
 </LinearLayout>
